@@ -1,7 +1,4 @@
 import {
-    // Box,
-    // FormControlLabel,
-    // Switch,
     Rating,
     Stack,
 } from "@mui/material"

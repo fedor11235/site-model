@@ -1,12 +1,10 @@
 import './App.css';
-// import {MuiTypography} from "./components/MuiTypography"
-// import {MuiButton} from "./components/MuiButton"
-import {MuiRating} from "./components/MuiRating"
+import {MuiAccordion} from "./components/MuiAccordion"
 
 function App() {
   return (
     <div className="App">
-      <MuiRating></MuiRating>
+      <MuiAccordion></MuiAccordion>
     </div>
   );
 }
