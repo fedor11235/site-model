@@ -1,4 +1,11 @@
-import { Stack, Button, IconButton, ButtonGroup, ToggleButton, ToggleButtonGroup } from "@mui/material"
+import { 
+    Stack, 
+    Button, 
+    IconButton, 
+    ButtonGroup, 
+    ToggleButton, 
+    ToggleButtonGroup 
+} from "@mui/material"
 import SendIcon from "@mui/icons-material/Send"
 import FormatBoldIcon from "@mui/icons-material/FormatBold"
 import FormatItalicIcon from "@mui/icons-material/FormatItalic"
@@ -30,7 +37,6 @@ export const MuiButton = () => {
                     <Button variant="contained" color="success">success</Button>
                 </Stack>
                 <Stack spacing={2} direction="row">
-                    {/* does not work */}
                     <Button variant="contained" size="small">small</Button>
                     <Button variant="contained" size="medium">medium</Button>
                     <Button variant="contained" size="large">large</Button>
