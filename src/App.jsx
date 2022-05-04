@@ -1,10 +1,10 @@
 import './App.css';
-import {MuiBreadcrumbs} from "./components/MuiBreadcrumbs"
+import {MuiList} from "./components/MuiList"
 
 function App() {
   return (
     <div className="App">
-      <MuiBreadcrumbs></MuiBreadcrumbs>
+      <MuiList></MuiList>
     </div>
   );
 }
