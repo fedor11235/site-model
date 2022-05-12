@@ -33,10 +33,16 @@ const cards = [
 export const AgeCards = () => {
 
     return(
-        <Stack direction="row" spacing={2} justifyContent="center" >
+        <Stack 
+          alignItems="center"
+          direction="row" 
+          spacing={2} 
+          justifyContent="center" 
+          sx={{height: '70vh'}}
+        >
           {cards.map((step) => (
 
-                <Card sx={{width:"300px"}}>
+                <Card sx={{width:"300px", height: '400px'}}>
                     <CardMedia
                         component="img"
                         height="140"
