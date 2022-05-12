@@ -1,7 +1,7 @@
 import { createTheme, colors, ThemeProvider } from '@mui/material';
-import './App.css';
+import './assets/App.css';
 
-import {MuiResponsiveness} from "./components/MuiResponsiveness"
+import {Main} from "./views/Main"
 
 const theme = createTheme({
   palette: {
@@ -22,7 +22,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
-        <MuiResponsiveness></MuiResponsiveness>
+        <Main></Main>
       </div>
     </ThemeProvider>
   );

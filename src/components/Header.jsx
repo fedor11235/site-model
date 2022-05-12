@@ -12,7 +12,7 @@ import CatchingPokemonIcon from "@mui/icons-material/CatchingPokemon"
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown"
 import { useState } from "react"
 
-export const MuiNavbar = () => {
+export const Header = () => {
     const [anchorEl, setAnchorEl] = useState(null)
     const open = Boolean(anchorEl)
     const handleClick = (event) => {
